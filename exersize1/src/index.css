@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card-s{
+  margin: 10px;
+  width: fit-content;
+  padding: 40px;
+  text-align: center;
+  background: #fff;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.carousel-container{
+  height: 300px;
+  max-width: 100px;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.sculpture-card{
+  width: 90vh;
+  display: block;
+  margin-right: 0;
+  padding: 40px;
+  text-align: center;
+  background: gray;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 0;
+}
+.sculpture-card img{
+  margin-top: 20px;
+}
+.sculpture-card button{
+  margin-top: 20px;
+}
+.card {
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background:  #282c34;
+  color: white;
+}
+.card:hover{
+  transform: scale(1.01);
+}
+.avatar {
+  margin: 20px;
+  border-radius: 50%;
+}
+.main-mg{
+  margin: 10px;
+}
+.button-basic{
+  padding: 10px;
+  margin: 10px;
+  background: #282c34;
+  color: white;
+  border: gray 1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  display: block;
+}
+.button-basic:hover{
+  transform: scale(1.1);
+}
+.d-block{
+  display: block;
+}
+.form-art{
+  display: flex;
+  flex-direction: column;
+}
+.form-art input{
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.d-flex{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.p-10{
+  padding: 10px;
+}
+.p-5{
+  padding: 5px;
+}
+.mg-l-10{
+  margin-left: 10px;
+}
+.mg-t-10{
+  margin-top: 10px;
+}
+input{
+  display: block;
+}
+b{
+  display: block;
+}
+.counter {
+  width: 100px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+.counter:hover{
+  background: #282c34;
+  color: white;
+  transform: scale(1.01);
+}
+.display-label{
+  display: block;
+  clear: both;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.display-label input{
+  color: #282c34;
+  margin: 5px;
+}
+.fancy{
+  border: 2px red solid;
+  color: yellow;
+}
